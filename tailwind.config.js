@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: ["Open Sans", "sans-serif"],
+      cursive: ["Sacramento", "cursive"],
     },
     extend: {
       colors: {

@@ -4,26 +4,26 @@ export default function App() {
       className="relative h-screen w-screen bg-cover"
       style={{ backgroundImage: "url('/assets/sales.jpg')" }}
     >
-      <div className="absolute inset-0 backdrop-blur"></div>
-      <div className="absolute inset-0 bg-gradient-to-br from-neutral-300 to-green-700 opacity-80"></div>
-      <div className="absolute flex h-screen w-screen  items-center justify-center gap-x-20">
-        <div className="w-1/4">
-          <img
-            className="from-glass shadow-lg w-48 rounded-3xl border-solid border border-border bg-gradient-to-br to-transparent p-8 backdrop-blur"
-            src="/assets/brain.png"
-            alt="cerébro logo"
-          />
-          <h1 className="text-4xl font-bold text-white">
+      <div className="absolute inset-0 backdrop-blur-lg"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-black to-green-700 opacity-80"></div>
+      <div className="absolute flex flex-col md:flex-row h-screen w-screen items-center justify-center gap-x-40">
+        <div className="flex w-1/4 flex-col gap-8">
+          <div className="flex w-96 items-center gap-3">
+            <img className="w-24" src="/assets/brain.png" alt="cerébro logo" />
+            <h2 className="text-4xl font-cursive text-sell">
+              Flávio Sousa
+            </h2>
+          </div>
+          <h1 className="text-3xl font-bold text-white">
             Desvende os segredos do sucesso em vendas escrito por um veterano
             com mais de 10 anos de experiência, explorando diversas áreas do
             negócio para alcançar a alta performance.
           </h1>
-          <span></span>
-          <button className="mt-8 w-full whitespace-nowrap rounded-l-full rounded-r-full bg-gradient-to-r from-green-700 to-sell px-6 py-3 font-sans font-extrabold uppercase text-white">
+          <button className="w-full whitespace-nowrap rounded-l-full rounded-r-full bg-gradient-to-r from-green-700 to-sell px-6 py-3 font-sans font-extrabold uppercase text-white">
             Quero ser de alta performance
           </button>
         </div>
-        <img className="h-96 rounded-3xl" src="/assets/seller.jpg" alt="pdf" />
+        <img className="h-1/2 rounded-3xl shadow-2xl shadow-green-900" src="/assets/seller.jpg" alt="pdf" />
       </div>
     </div>
   );
@@ -33,7 +33,7 @@ export default function App() {
  * 
  * 
  *   
- *   
+ *             <div className="flex w-96 items-center gap-6 rounded-xl border border-solid border-border bg-gradient-to-br from-glass to-transparent p-4 shadow-lg backdrop-blur">
  *  <div className="to-green-700 relative flex h-screen w-screen items-center justify-center bg-gradient-to-br from-stone-800">
       <img
         src="/assets/sales.jpg"
