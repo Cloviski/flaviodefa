@@ -1,5 +1,9 @@
-export default function App() {
+import Image from "next/image";
+import Link from "next/link";
+
+export default function Home() {
   return (
+    <main>
     <div
       className="relative h-screen w-screen bg-cover"
       style={{ backgroundImage: "url('/assets/sales.jpg')" }}
@@ -9,8 +13,8 @@ export default function App() {
       <div className="absolute flex flex-col md:flex-row h-screen w-screen items-center justify-center gap-x-40">
         <div className="flex w-1/4 flex-col gap-8">
           <div className="flex w-96 items-center gap-3">
-            <img className="w-24" src="/assets/brain.png" alt="cerébro logo" />
-            <h2 className="text-4xl font-cursive text-sell">
+            <Image width={96} height={96} src="/assets/brain.png" alt="cerebro logo" />
+            <h2 className="text-4xl font-handwritten text-sell">
               Flávio Sousa
             </h2>
           </div>
@@ -19,27 +23,16 @@ export default function App() {
             com mais de 10 anos de experiência, explorando diversas áreas do
             negócio para alcançar a alta performance.
           </h1>
-          <button className="w-full whitespace-nowrap rounded-l-full rounded-r-full bg-gradient-to-r from-green-700 to-sell px-6 py-3 font-sans font-extrabold uppercase text-white">
-            Quero ser de alta performance
-          </button>
+          <Link href="https://pay.kiwify.com.br/SDaIhL6">
+            <button className="w-full rounded-l-full rounded-r-full bg-gradient-to-r from-green-700 to-sell px-6 py-3 font-sans font-extrabold uppercase text-white">
+              Quero ser de alta performance
+            </button>
+          </Link>
+            
         </div>
         <img className="h-1/2 rounded-3xl shadow-2xl shadow-green-900" src="/assets/seller.jpg" alt="pdf" />
       </div>
     </div>
+    </main>
   );
 }
-
-/** 
- * 
- * 
- *   
- *             <div className="flex w-96 items-center gap-6 rounded-xl border border-solid border-border bg-gradient-to-br from-glass to-transparent p-4 shadow-lg backdrop-blur">
- *  <div className="to-green-700 relative flex h-screen w-screen items-center justify-center bg-gradient-to-br from-stone-800">
-      <img
-        src="/assets/sales.jpg"
-        className="h-screen w-full object-none opacity-10 blur filter"
-        alt=""
-      >
-      </img>
-    </div>
- * */
