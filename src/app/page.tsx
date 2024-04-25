@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -12,8 +13,8 @@ export default function Home() {
       <div className="absolute flex flex-col md:flex-row h-screen w-screen items-center justify-center gap-x-40">
         <div className="flex w-1/4 flex-col gap-8">
           <div className="flex w-96 items-center gap-3">
-            <Image className="w-24" src="/assets/brain.png" alt="cerébro logo" />
-            <h2 className="text-4xl font-cursive text-sell">
+            <Image width={96} height={96} src="/assets/brain.png" alt="cerebro logo" />
+            <h2 className="text-4xl font-handwritten text-sell">
               Flávio Sousa
             </h2>
           </div>
@@ -22,11 +23,14 @@ export default function Home() {
             com mais de 10 anos de experiência, explorando diversas áreas do
             negócio para alcançar a alta performance.
           </h1>
-          <button className="w-full whitespace-nowrap rounded-l-full rounded-r-full bg-gradient-to-r from-green-700 to-sell px-6 py-3 font-sans font-extrabold uppercase text-white">
-            Quero ser de alta performance
-          </button>
+          <Link href="https://pay.kiwify.com.br/SDaIhL6">
+            <button className="w-full rounded-l-full rounded-r-full bg-gradient-to-r from-green-700 to-sell px-6 py-3 font-sans font-extrabold uppercase text-white">
+              Quero ser de alta performance
+            </button>
+          </Link>
+            
         </div>
-        <Image className="h-1/2 rounded-3xl shadow-2xl shadow-green-900" src="/assets/seller.jpg" alt="pdf" />
+        <img className="h-1/2 rounded-3xl shadow-2xl shadow-green-900" src="/assets/seller.jpg" alt="pdf" />
       </div>
     </div>
     </main>
