@@ -3,17 +3,18 @@ import Link from "next/link";
 
 export default function Buy() {
   return (
-    <div className="flex flex-col items-center w-full bg-neutral-950 h-[700px]">
-      <h2 className="w-full text-center text-4xl text-white font-bold my-11 font-inter">
+    <div className="relative flex flex-col items-center w-full h-fit bg-gray-200 p-11">
+      
+      <h2 className="w-full text-center text-4xl text-neutral-900 font-bold font-inter mb-11 uppercase">
         Garanta Sua <span className="text-sell">Cópia</span>
       </h2>
-      <div className="flex md:flex-row flex-col h-full justify-center w-full gap-x-36">
-        <div className="flex flex-col h-fit rounded-lg items-center w-1/5 p-8 bg-gradient-to-br from-green-950 to-green-700 backdrop-blur shadow-md shadow-neutral-950 border border-solid border-green-500">
+      <div className="flex md:flex-row flex-col h-full justify-center w-full gap-12 md:gap-36">
+        <div className="flex flex-col h-fit rounded-lg items-center p-8 bg-gradient-to-br from-green-950 to-green-700 backdrop-blur shadow-2xl shadow-neutral-950 border border-solid border-green-500">
           <Image
             className="mb-6 rounded-lg"
             width={150}
             height={1}
-            src="/assets/seller.jpg"
+            src="/assets/pdf3d.png"
             alt="pdf"
           />
           <h3 className="text-white text-xl font-bold">EBOOK</h3>
@@ -25,7 +26,7 @@ export default function Buy() {
             </button>
           </Link>
         </div>
-        <div className="flex flex-col rounded-lg items-center w-1/5 h-fit p-8 bg-gradient-to-br from-green-950 to-green-700 backdrop-blur shadow-md shadow-neutral-950 border border-solid border-green-500">
+        <div className="flex flex-col rounded-lg items-center h-fit p-8 bg-gradient-to-br from-green-950 to-green-700 backdrop-blur shadow-2xl shadow-neutral-950 border border-solid border-green-500">
           <Image
             className="mb-6 rounded-lg"
             width={150}

@@ -2,11 +2,11 @@ import Accordion from "./accordion";
 
 export default function FAQ() {
   return (
-    <div className="flex justify-evenly items-center w-full h-[400px] bg-gray-200">
-      <span className="bg-gradient-to-r from-green-700 to-sell font-inter bg-clip-text text-transparent font-extrabold text-9xl uppercase">
+    <div className="flex flex-col md:flex-row py-24 justify-center items-center w-full h-fit bg-gray-200 gap-y-6 md:gap-36">
+      <span className="bg-gradient-to-r from-green-700 to-sell font-inter bg-clip-text text-transparent font-extrabold text-6xl md:text-9xl uppercase">
         FAQ
       </span>
-      <div className="p-4 bg-gray-200 rounded-lg border border-green-700">
+      <div className="p-4 max-w-min bg-gray-200 rounded-lg border border-green-700">
         <Accordion
           title="Funciona pra mim?"
           answer="O ebook é tanto pra iniciantes quanto pra vendedores experientes."
