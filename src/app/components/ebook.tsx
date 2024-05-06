@@ -22,13 +22,13 @@ export default function Ebook() {
               Flávio Sousa
             </h2>
           </div>
-          <h1 className="text-3xl font-semibold text-white w-full">
+          <h1 className="text-3xl font-semibold text-white w-full ">
             Desvende os segredos do sucesso em vendas escrito por um veterano
             com mais de 10 anos de experiência, explorando diversas áreas do
             negócio para alcançar a alta performance.
           </h1>
           <Link href="https://pay.kiwify.com.br/SDaIhL6">
-            <button className="w-full rounded-l-full rounded-r-full bg-gradient-to-r from-green-700 to-sell px-6 py-3 font-sans font-bold uppercase text-white">
+            <button className="w-full rounded-l-full rounded-r-full bg-gradient-to-r from-green-700 to-sell px-6 py-3 font-sans font-bold uppercase text-white hover:scale-105 transition-all">
               Quero ser de alta performance
             </button>
           </Link>
