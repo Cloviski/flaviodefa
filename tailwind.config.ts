@@ -10,6 +10,7 @@ const config: Config = {
     fontFamily: {
       sans: ['var(--font-open-sans)'],
       handwritten: ['var(--font-sacramento)'],
+      inter: ['var(--font-inter)']
     },
     extend: {    
       colors: {
