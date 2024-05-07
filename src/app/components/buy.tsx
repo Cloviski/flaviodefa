@@ -4,8 +4,8 @@ import Link from "next/link";
 export default function Buy() {
   return (
     <div className="relative flex flex-col items-center w-full h-fit bg-gray-200 p-11">
-      <h2 className="w-full text-center text-4xl text-neutral-900 font-bold font-inter mb-11 uppercase">
-        Garanta Sua <span className="text-sell">Cópia</span>
+      <h2 className="w-full text-center text-4xl text-green-800 font-bold font-inter mb-11 uppercase">
+        Garanta Sua Cópia
       </h2>
       <div className="flex md:flex-row flex-col h-full justify-center w-full gap-12 md:gap-36">
         <div className="flex flex-col h-fit rounded-lg items-center p-8 bg-gradient-to-br from-green-950 to-green-700 backdrop-blur shadow-2xl shadow-neutral-950 border border-solid border-green-500">
@@ -56,7 +56,7 @@ export default function Buy() {
             DIAS
           </span>
         </div>
-        <span className="p-6 font-bold border border-green-600 rounded uppercase text-xl text-green-700 text-center">
+        <span className="p-6 bg-gradient-to-br from-[#15803ca9] to-[#7dd956b2] font-bold border border-green-600 rounded uppercase text-xl text-white text-center">
           Tenha 7 dias de garantia ou seu dinheiro de volta
         </span>
       </div>

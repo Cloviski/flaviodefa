@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function AboutMe() {
   return (
     <div className="relative flex justify-evenly items-center w-full bg-gradient-to-b h-fit bg-gray-300 p-12">
-      <div className="absolute inset-0 z-10 md:bg-gradient-to-l bg-gradient-to-t from-transparent via-[#052e1666] to-green-900"></div>
+      <div className="absolute inset-0 z-10 md:bg-gradient-to-bl bg-gradient-to-t from-transparent via-[#052e1666] to-green-900"></div>
       <div className="w-[400px] z-20 h-fit bg-[#00000022] shadow-2xl backdrop-blur border border-solid border-[#ffffff22] rounded-3xl mb-96 md:mb-0">
         <div className="p-8">
           <span className="text-sell">Conheça o escritor</span>
