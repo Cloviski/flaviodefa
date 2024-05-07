@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="flex flex-col items-center w-full bg-neutral-950 h-fit p-12">
+    <div className="flex flex-col items-center w-full bg-green-950 h-fit p-12">
       <Image
         className="mb-6"
         src="/assets/logo.png"

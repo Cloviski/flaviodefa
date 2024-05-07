@@ -12,7 +12,7 @@ const Accordion: React.FC<Props> = ({ title, answer }) => {
     <div className="py-2">
       <button
         onClick={() => setFaqOpen(!faqOpen)}
-        className="flex justify-between w-full"
+        className="flex justify-between items-center w-full"
       >
         <span className="text-xl font-bold whitespace-nowrap">{title}</span>
         <svg

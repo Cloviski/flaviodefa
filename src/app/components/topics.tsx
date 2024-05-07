@@ -12,17 +12,17 @@ export default function Topics() {
       <div className="flex flex-col md:flex-row justify-center items-center gap-12">
         <div className="flex flex-col justify-center items-center max-w-80 w-fit h-fit bg-[#ffffff1a] shadow-xl  backdrop-blur border border-solid border-[#ffffff22] rounded-3xl md:mb-0 p-8">
           <Image src={MindsetIcon} width={36} height={36} alt="mindset" />
-          <h3 className="text-xl font-inter text-white my-4 font-bold">
+          <h3 className="text-xl font-inter text-white my-4 font-extrabold">
             Mindset Vendedor
           </h3>
-          <span className="text-white">
+          <span className="text-white text-center">
             Construa os fundamentos cultivando autoconfiança e positividade,
             além de fortalecer a resiliência.
           </span>
         </div>
         <div className="flex flex-col justify-center items-center max-w-80 w-fit h-fit bg-[#ffffff1a] shadow-xl backdrop-blur border border-solid border-[#ffffff22] rounded-3xl md:mb-0 p-8">
           <Image src={SmileIcon} width={36} height={36} alt="mindset" />
-          <h3 className="text-xl font-inter text-white my-4 font-bold">
+          <h3 className="text-xl font-inter text-white my-4 font-extrabold">
             Inteligência Emocional
           </h3>
           <span className="text-white text-center">
@@ -33,10 +33,10 @@ export default function Topics() {
         </div>
         <div className="flex flex-col justify-center items-center max-w-80 w-fit h-fit bg-[#ffffff1a] shadow-xl  backdrop-blur border border-solid border-[#ffffff22] rounded-3xl md:mb-0 p-8">
           <Image src={BullseyeIcon} width={36} height={36} alt="mindset" />
-          <h3 className="text-xl font-inter text-white font-bold my-4">
+          <h3 className="text-xl font-inter text-white font-extrabold my-4">
             Táticas Infalíveis
           </h3>
-          <span className="text-white">
+          <span className="text-white text-center">
             Abra a mente para as soluções, não apenas no produto, sabendo fazer
             negociações persuasivas.
           </span>
