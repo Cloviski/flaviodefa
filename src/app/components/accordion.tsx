@@ -12,11 +12,11 @@ const Accordion: React.FC<Props> = ({ title, answer }) => {
     <div className="py-2">
       <button
         onClick={() => setFaqOpen(!faqOpen)}
-        className="flex justify-between items-center w-full"
+        className="flex w-full items-center justify-between"
       >
-        <span className="text-xl font-bold whitespace-nowrap">{title}</span>
+        <span className="whitespace-nowrap text-xl font-bold">{title}</span>
         <svg
-          className="fill-black shrink-0 ml-8"
+          className="ml-8 shrink-0 fill-black"
           width="16"
           height="16"
           xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +26,7 @@ const Accordion: React.FC<Props> = ({ title, answer }) => {
             width="16"
             height="2"
             rx="1"
-            className={`transform origin-center transition duration-200 ease-out ${
+            className={`origin-center transform transition duration-200 ease-out ${
               faqOpen && "!rotate-180"
             }`}
           />
@@ -35,14 +35,14 @@ const Accordion: React.FC<Props> = ({ title, answer }) => {
             width="16"
             height="2"
             rx="1"
-            className={`transform origin-center rotate-90 transition duration-200 ease-out ${
+            className={`origin-center rotate-90 transform transition duration-200 ease-out ${
               faqOpen && "!rotate-180"
             }`}
           />
         </svg>
       </button>
       <div
-        className={`grid overflow-hidden transition-all duration-300 ease-in-out text-green-600 ${
+        className={`grid overflow-hidden text-green-600 transition-all duration-300 ease-in-out ${
           faqOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
         }`}
       >
