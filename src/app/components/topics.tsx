@@ -10,7 +10,7 @@ export default function Topics() {
         Principais tópicos do ebook
       </h2>
       <div className="flex flex-col items-center justify-center gap-12 md:flex-row">
-        <div className="flex h-fit w-fit max-w-80 flex-col items-center justify-center rounded-3xl border  border-solid border-[#ffffff22] bg-[#ffffff1a] p-8 shadow-xl backdrop-blur md:mb-0">
+        <div className="flex size-fit max-w-80 flex-col items-center justify-center rounded-3xl border  border-solid border-[#ffffff22] bg-[#ffffff1a] p-8 shadow-xl backdrop-blur md:mb-0">
           <Image src={MindsetIcon} width={36} height={36} alt="mindset" />
           <h3 className="my-4 font-inter text-xl font-extrabold text-white">
             Mindset Vendedor
@@ -20,7 +20,7 @@ export default function Topics() {
             além de fortalecer a resiliência.
           </span>
         </div>
-        <div className="flex h-fit w-fit max-w-80 flex-col items-center justify-center rounded-3xl border border-solid border-[#ffffff22] bg-[#ffffff1a] p-8 shadow-xl backdrop-blur md:mb-0">
+        <div className="flex size-fit max-w-80 flex-col items-center justify-center rounded-3xl border border-solid border-[#ffffff22] bg-[#ffffff1a] p-8 shadow-xl backdrop-blur md:mb-0">
           <Image src={SmileIcon} width={36} height={36} alt="mindset" />
           <h3 className="my-4 font-inter text-xl font-extrabold text-white">
             Inteligência Emocional
@@ -31,7 +31,7 @@ export default function Topics() {
             eficaz.
           </span>
         </div>
-        <div className="flex h-fit w-fit max-w-80 flex-col items-center justify-center rounded-3xl border  border-solid border-[#ffffff22] bg-[#ffffff1a] p-8 shadow-xl backdrop-blur md:mb-0">
+        <div className="flex size-fit max-w-80 flex-col items-center justify-center rounded-3xl border  border-solid border-[#ffffff22] bg-[#ffffff1a] p-8 shadow-xl backdrop-blur md:mb-0">
           <Image src={BullseyeIcon} width={36} height={36} alt="mindset" />
           <h3 className="my-4 font-inter text-xl font-extrabold text-white">
             Táticas Infalíveis

@@ -7,7 +7,7 @@ export default function Buy() {
       <h2 className="mb-11 w-full text-center font-inter text-4xl font-bold uppercase text-green-800">
         Garanta Sua Cópia
       </h2>
-      <div className="flex h-full w-full flex-col justify-center gap-12 md:flex-row md:gap-36">
+      <div className="flex size-full flex-col justify-center gap-12 md:flex-row md:gap-36">
         <div className="flex h-fit flex-col items-center rounded-lg border border-solid border-green-500 bg-gradient-to-br from-green-950 to-green-700 p-8 shadow-2xl shadow-neutral-950 backdrop-blur">
           <Image
             className="mb-6 rounded-lg"
