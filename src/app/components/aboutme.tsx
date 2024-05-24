@@ -2,21 +2,21 @@ import Image from "next/image";
 
 export default function AboutMe() {
   return (
-    <div className="relative flex justify-evenly items-center w-full bg-gradient-to-b h-fit bg-gray-300 p-12">
-      <div className="absolute inset-0 z-10 md:bg-gradient-to-bl bg-gradient-to-t from-transparent via-[#052e1666] to-green-900"></div>
-      <div className="w-[400px] z-20 h-fit bg-[#00000022] shadow-2xl backdrop-blur border border-solid border-[#ffffff22] rounded-3xl mb-96 md:mb-0">
+    <div className="relative flex h-fit w-full items-center justify-evenly bg-gray-300 bg-gradient-to-b p-12">
+      <div className="absolute inset-0 z-10 bg-gradient-to-t from-transparent via-[#052e1666] to-green-900 md:bg-gradient-to-bl"></div>
+      <div className="z-20 mb-96 h-fit w-[400px] rounded-3xl border border-solid border-[#ffffff22] bg-[#00000022] shadow-2xl backdrop-blur md:mb-0">
         <div className="p-8">
           <span className="text-sell">Conheça o escritor</span>
-          <h2 className="text-4xl font-handwritten text-white my-4">
+          <h2 className="my-4 font-handwritten text-4xl text-white">
             Flávio Sousa
           </h2>
-          <p className="text-neutral-300 mb-4">
+          <p className="mb-4 text-neutral-300">
             Meu nome é Flávio Ribeiro de Sousa, nascido em Salvador, Bahia.
             Comecei minha jornada como vendedor de rua e, eventualmente,
             trabalhei como frentista em um posto de gasolina. Descobri minha
             paixão pela música percussiva e viajei com a banda juvenil Olodum.
           </p>
-          <p className="text-neutral-300 mb-4">
+          <p className="mb-4 text-neutral-300">
             Tornei-me pai aos 19 anos e, devido à incerteza da música como
             carreira, empreendi no ramo de alimentação, embora tenha enfrentado
             desafios. Mais tarde, entrei na indústria de peças automotivas como
@@ -35,7 +35,7 @@ export default function AboutMe() {
       </div>
       <div></div>
       <Image
-        className="w-full md:w-1/2 absolute z-0 md:right-0 bottom-0"
+        className="absolute bottom-0 z-0 w-full md:right-0 md:w-1/2"
         width={1080}
         height={0}
         src="/assets/flaviob&w.png"

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="flex flex-col items-center w-full bg-green-950 h-fit p-12">
+    <div className="flex h-fit w-full flex-col items-center bg-green-950 p-12">
       <Image
         className="mb-6"
         src="/assets/logo.png"
@@ -11,11 +11,11 @@ export default function Footer() {
         height={100}
         alt="logo"
       />
-      <span className="text-neutral-300 text-center md:text-start">
+      <span className="text-center text-neutral-300 md:text-start">
         VENDENDOR DE ALTA PERFORMANCE Copyright © 2024 - Flávio Ribeiro | Todos
         os direitos reservados
       </span>
-      <span className="text-neutral-300 mt-6">
+      <span className="mt-6 text-neutral-300">
         Desenvolvido por{" "}
         <Link
           className="text-sell"

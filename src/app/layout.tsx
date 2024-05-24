@@ -19,7 +19,7 @@ const inter = Inter({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-inter",
-})
+});
 
 export const metadata: Metadata = {
   title: "VENDEDOR DE ALTA PERFORMACE",
@@ -32,7 +32,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${sacramento.variable} ${open_sans.variable} ${inter.variable}`}>
+    <html
+      lang="en"
+      className={`${sacramento.variable} ${open_sans.variable} ${inter.variable}`}
+    >
       <link rel="icon" href="/favicon.ico" sizes="any" />
       <body>{children}</body>
     </html>
