@@ -14,7 +14,7 @@ const Accordion: React.FC<Props> = ({ title, answer }) => {
         onClick={() => setFaqOpen(!faqOpen)}
         className="flex w-full items-center justify-between"
       >
-        <span className="whitespace-nowrap text-xl font-bold">{title}</span>
+        <span className="whitespace-nowrap text-sm md:text-xl font-bold">{title}</span>
         <svg
           className="ml-8 shrink-0 fill-black"
           width="16"

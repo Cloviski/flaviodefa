@@ -7,7 +7,7 @@ export default function Buy() {
       <h2 className="mb-11 w-full text-center font-inter text-4xl font-bold uppercase text-green-800">
         Garanta Sua Cópia
       </h2>
-      <div className="flex size-full flex-col justify-center gap-12 md:flex-row md:gap-36">
+      <div className="flex size-full flex-col justify-center gap-12 md:flex-row md:gap-x-12">
         <div className="flex h-fit flex-col items-center rounded-lg border border-solid border-green-500 bg-gradient-to-br from-green-950 to-green-700 p-8 shadow-2xl shadow-neutral-950 backdrop-blur">
           <Image
             className="mb-6 rounded-lg"
@@ -18,7 +18,7 @@ export default function Buy() {
           />
           <h3 className="text-xl font-bold text-white">EBOOK</h3>
           <span className="my-2 text-xl text-white">Por apenas</span>
-          <span className="font-inter text-6xl font-extrabold text-white">
+          <span className="font-inter text-5xl md:text-6xl font-extrabold text-white">
             R$27,00
           </span>
           <Link href="https://pay.kiwify.com.br/SDaIhL6">
@@ -37,7 +37,7 @@ export default function Buy() {
           />
           <h3 className="text-xl font-bold text-white">MENTORIA</h3>
           <span className="my-2 text-xl text-white">Por apenas</span>
-          <span className="font-inter text-6xl font-extrabold text-white">
+          <span className="font-inter text-5xl md:text-6xl font-extrabold text-white">
             R$997,00
           </span>
           <Link href="https://pay.kiwify.com.br/SDaIhL6">

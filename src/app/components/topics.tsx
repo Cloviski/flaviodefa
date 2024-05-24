@@ -12,7 +12,7 @@ export default function Topics() {
       <div className="flex flex-col items-center justify-center gap-12 md:flex-row">
         <div className="flex size-fit max-w-80 flex-col items-center justify-center rounded-3xl border  border-solid border-[#ffffff22] bg-[#ffffff1a] p-8 shadow-xl backdrop-blur md:mb-0">
           <Image src={MindsetIcon} width={36} height={36} alt="mindset" />
-          <h3 className="my-4 font-inter text-xl font-extrabold text-white">
+          <h3 className="my-4 text-center font-inter text-xl font-extrabold text-white">
             Mindset Vendedor
           </h3>
           <span className="text-center text-white">
@@ -22,7 +22,7 @@ export default function Topics() {
         </div>
         <div className="flex size-fit max-w-80 flex-col items-center justify-center rounded-3xl border border-solid border-[#ffffff22] bg-[#ffffff1a] p-8 shadow-xl backdrop-blur md:mb-0">
           <Image src={SmileIcon} width={36} height={36} alt="mindset" />
-          <h3 className="my-4 font-inter text-xl font-extrabold text-white">
+          <h3 className="my-4 text-center font-inter text-xl font-extrabold text-white">
             Inteligência Emocional
           </h3>
           <span className="text-center text-white">
@@ -33,7 +33,7 @@ export default function Topics() {
         </div>
         <div className="flex size-fit max-w-80 flex-col items-center justify-center rounded-3xl border  border-solid border-[#ffffff22] bg-[#ffffff1a] p-8 shadow-xl backdrop-blur md:mb-0">
           <Image src={BullseyeIcon} width={36} height={36} alt="mindset" />
-          <h3 className="my-4 font-inter text-xl font-extrabold text-white">
+          <h3 className="my-4 text-center font-inter text-xl font-extrabold text-white">
             Táticas Infalíveis
           </h3>
           <span className="text-center text-white">
