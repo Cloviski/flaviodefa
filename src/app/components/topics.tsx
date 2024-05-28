@@ -6,7 +6,7 @@ import SmileIcon from "../../../public/assets/smile.svg";
 export default function Topics() {
   return (
     <div className="flex h-fit w-full flex-col items-center justify-center gap-y-6 bg-gradient-to-r from-green-700 to-sell py-24">
-      <h2 className="mb-11 w-full text-center font-inter text-4xl font-bold uppercase text-white">
+      <h2 className="mb-11 w-full text-center font-inter text-2xl font-bold uppercase text-white px-4">
         Principais tópicos do ebook
       </h2>
       <div className="flex flex-col items-center justify-center gap-12 md:flex-row">
