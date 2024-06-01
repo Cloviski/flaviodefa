@@ -11,31 +11,27 @@ export default function AboutMe() {
             Flávio Sousa
           </h2>
           <p className="mb-4 text-neutral-300">
-            Meu nome é Flávio Ribeiro de Sousa, nascido em Salvador, Bahia.
-            Comecei minha jornada como vendedor de rua e, eventualmente,
-            trabalhei como frentista em um posto de gasolina. Descobri minha
-            paixão pela música percussiva e viajei com a banda juvenil Olodum.
+            Flávio Ribeiro de Sousa, nascido em Salvador, Bahia, começou como
+            vendedor de rua e frentista antes de descobrir sua paixão pela
+            música percussiva, viajando com a banda juvenil Olodum. Tornou-se
+            pai aos 19 anos e, devido à incerteza na carreira musical,
+            empreendeu no ramo de alimentação, enfrentando desafios.
+            Posteriormente, trabalhou como motorista na indústria de peças
+            automotivas, almejando se tornar vendedor.
           </p>
           <p className="mb-4 text-neutral-300">
-            Tornei-me pai aos 19 anos e, devido à incerteza da música como
-            carreira, empreendi no ramo de alimentação, embora tenha enfrentado
-            desafios. Mais tarde, entrei na indústria de peças automotivas como
-            motorista, visando me tornar vendedor. Após seis anos de esforço,
-            alcancei meu objetivo e vendi mais de 30 milhões em vendas,
-            adquirindo experiência valiosa.
-          </p>
-          <p className="text-neutral-300">
-            Em 2021, descobri o mercado digital e me apaixonei pela escala que
-            oferece. Atualmente, ensino outras pessoas a vender transformação e
-            se destacar no mercado digital, compartilhando meu conhecimento e
-            experiência. Minha jornada é um testemunho de determinação e paixão
-            que levaram a transformações significativas em minha vida.
+            Após seis anos de esforço, conseguiu vender mais de 30 milhões,
+            adquirindo experiência valiosa. Em 2021, descobriu o mercado
+            digital, apaixonando-se por sua escala, e agora ensina outras
+            pessoas a se destacarem nesse mercado, compartilhando seu
+            conhecimento e experiência. Sua jornada reflete determinação e
+            paixão, resultando em transformações significativas em sua vida.
           </p>
         </div>
       </div>
       <div></div>
       <Image
-        className="absolute bottom-0 z-0 w-full md:right-0 md:w-1/2"
+        className="absolute bottom-0 z-0 w-full md:right-0 md:w-[45%]"
         width={1080}
         height={0}
         src="/assets/flaviob&w.png"

@@ -24,8 +24,7 @@ export default function Ebook() {
           </div>
           <h1 className="w-full text-3xl font-semibold text-white ">
             Desvende os segredos do sucesso em vendas escrito por um veterano
-            com mais de 10 anos de experiência, explorando diversas áreas do
-            negócio para alcançar a alta performance.
+            com mais de 10 anos de experiência.
           </h1>
           <Link href="https://pay.kiwify.com.br/SDaIhL6">
             <button className="rounded-l-full rounded-r-full bg-gradient-to-r from-green-700 to-sell px-6 py-3 font-sans font-bold uppercase text-white transition-all hover:scale-105 sm:whitespace-nowrap md:w-full w-max">
